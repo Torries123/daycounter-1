@@ -10,6 +10,15 @@
   margin-right: auto;
   width: 50%;
 		}
+					h1{
+			font-size:100px;
+			font-weight:bold;
+			margin: 0px;
+
+			font-family: "Tahoma";
+
+		}
+	</style
 	</style>
 </head>
 <body id = "container">
@@ -23,7 +32,7 @@ if (today.getMonth()==11 && today.getDate()>18) //if Christmas has passed alread
 var one_day=1000*60*60*24
  
 //Calculate difference btw the two dates, and convert to days
-document.write("<h1 style='margin:0; font-size:100px;font-weight:bold;'>"+Math.ceil((christmas.getTime()-today.getTime())/(one_day))+"</h1>");
+document.write("<h1>"+Math.ceil((christmas.getTime()-today.getTime())/(one_day))+"</h1>");
 
 
 </script>
